@@ -20,7 +20,8 @@ This module enhances SSH security by automatically restricting SSH access to the
 
 ```nix
 {
-  inputs.tailscale-ssh.url = "github:YourUsername/tailscale-ssh";
+  inputs.tailscale-ssh.url = "github:paysancorrezien/tailscale-ssh.nix";
+
 
   outputs = { self, nixpkgs, tailscale-ssh }: {
     nixosConfigurations.yourHost = nixpkgs.lib.nixosSystem {
