@@ -1,5 +1,5 @@
 {
-  description = "NixOS module for secure Tailscale SSH configuration";
+  description = "NixOS module for secure Tailscale SSH configuration that automatically manages firewall rules based on Tailscale status";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
